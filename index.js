@@ -19,7 +19,7 @@ const quizQuestions = [
     answer: [
         {text: "London", correct: false},
         {text: "Berlin", correct: false},
-        {text: "Paris", correct: true},
+        {text: "Paris", correct: false},
         {text: "Madird", correct: false}
     ],
    },
@@ -30,7 +30,7 @@ const quizQuestions = [
         {text: "Earth", correct: false},
         {text: "neptune", correct: false},
         {text: "jupiter", correct: false},
-        {text: "mars", correct: true}
+        {text: "mars", correct: false}
     ],
    },
 
@@ -39,7 +39,7 @@ const quizQuestions = [
     answer: [
         {text: "java", correct: false},
         {text: "python", correct: false},
-        {text: "banana", correct: true},
+        {text: "banana", correct: false},
         {text: "javascript", correct: false}
     ],
    },
@@ -47,10 +47,10 @@ const quizQuestions = [
    {
     question: "What is your name",
     answer: [
-        {text: "john Doe", correct: false},
+        {text: "john Doe", correct: true},
         {text: "girl", correct: false},
         {text: "man", correct: false},
-        {text: "none of the above", correct: true}
+        {text: "none of the above", correct: false}
     ],
    },
 
