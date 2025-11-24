@@ -47,7 +47,7 @@ const quizQuestions = [
    {
     question: "What is your name",
     answer: [
-        {text: "john Doe", correct: true},
+        {text: "john Doe", correct: false},
         {text: "girl", correct: false},
         {text: "man", correct: false},
         {text: "none of the above", correct: true}
