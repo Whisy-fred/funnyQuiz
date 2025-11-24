@@ -18,8 +18,8 @@ const quizQuestions = [
     question: "What is the capital of france",
     answer: [
         {text: "London", correct: false},
-        {text: "Berlin", correct: false},
-        {text: "Paris", correct: true},
+        {text: "Berlin", correct: true},
+        {text: "Paris", correct: false},
         {text: "Madird", correct: false}
     ],
    },
@@ -27,20 +27,20 @@ const quizQuestions = [
    {
     question: "What planet is called the red planet",
     answer: [
-        {text: "Earth", correct: false},
+        {text: "Earth", correct: true},
         {text: "neptune", correct: false},
         {text: "jupiter", correct: false},
-        {text: "mars", correct: true}
+        {text: "mars", correct: false}
     ],
    },
 
    {
-    question: "Which of these is not a programming language?",
+    question: "Which of these is not a  language?",
     answer: [
-        {text: "java", correct: false},
-        {text: "python", correct: false},
-        {text: "banana", correct: true},
-        {text: "javascript", correct: false}
+        {text: "English", correct: false},
+        {text: "France", correct: false},
+        {text: "Spanish", correct: true},
+        {text: "French", correct: false}
     ],
    },
 
@@ -57,9 +57,9 @@ const quizQuestions = [
    {
     question: "What is the chemical symbol for gold?",
     answer: [
-        {text: "Go", correct: false},
+        {text: "Go", correct: true},
         {text: "Gd", correct: false},
-        {text: "Au", correct: true},
+        {text: "Au", correct: false},
         {text: "Ag", correct: false}
     ],
    },
@@ -68,8 +68,8 @@ const quizQuestions = [
     answer: [
         {text: "south africa", correct: false},
         {text: "Niger", correct: false},
-        {text: "Nigeria", correct: true},
-        {text: "Cameroon", correct: false}
+        {text: "Nigeria", correct: false},
+        {text: "Cameroon", correct: true}
     ],
    },
 
