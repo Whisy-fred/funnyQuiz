@@ -19,7 +19,7 @@ const quizQuestions = [
     answer: [
         {text: "London", correct: false},
         {text: "Berlin", correct: false},
-        {text: "Paris", correct: false},
+        {text: "Paris", correct: true},
         {text: "Madird", correct: false}
     ],
    },
@@ -30,7 +30,7 @@ const quizQuestions = [
         {text: "Earth", correct: false},
         {text: "neptune", correct: false},
         {text: "jupiter", correct: false},
-        {text: "mars", correct: false}
+        {text: "mars", correct: true}
     ],
    },
 
@@ -39,7 +39,7 @@ const quizQuestions = [
     answer: [
         {text: "java", correct: false},
         {text: "python", correct: false},
-        {text: "banana", correct: false},
+        {text: "banana", correct: true},
         {text: "javascript", correct: false}
     ],
    },
@@ -50,7 +50,7 @@ const quizQuestions = [
         {text: "john Doe", correct: true},
         {text: "girl", correct: false},
         {text: "man", correct: false},
-        {text: "none of the above", correct: false}
+        {text: "none of the above", correct: true}
     ],
    },
 
@@ -63,6 +63,16 @@ const quizQuestions = [
         {text: "Ag", correct: false}
     ],
    },
+{
+    question: "Which country is the giant of africa",
+    answer: [
+        {text: "south africa", correct: false},
+        {text: "Niger", correct: false},
+        {text: "Nigeria", correct: true},
+        {text: "Cameroon", correct: false}
+    ],
+   },
+
 
 
 ];
