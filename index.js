@@ -30,7 +30,7 @@ const quizQuestions = [
         {text: "Earth", correct: true},
         {text: "neptune", correct: false},
         {text: "jupiter", correct: false},
-        {text: "mars", correct: false}
+        {text: "mars", correct: true}
     ],
    },
 
@@ -38,8 +38,8 @@ const quizQuestions = [
     question: "Which of these is not a  language?",
     answer: [
         {text: "English", correct: false},
-        {text: "France", correct: false},
-        {text: "Spanish", correct: true},
+        {text: "France", correct: true},
+        {text: "Spanish", correct: fals3},
         {text: "French", correct: false}
     ],
    },
@@ -57,9 +57,9 @@ const quizQuestions = [
    {
     question: "What is the chemical symbol for gold?",
     answer: [
-        {text: "Go", correct: true},
+        {text: "Go", correct: false},
         {text: "Gd", correct: false},
-        {text: "Au", correct: false},
+        {text: "Au", correct: true},
         {text: "Ag", correct: false}
     ],
    },
@@ -68,8 +68,8 @@ const quizQuestions = [
     answer: [
         {text: "south africa", correct: false},
         {text: "Niger", correct: false},
-        {text: "Nigeria", correct: false},
-        {text: "Cameroon", correct: true}
+        {text: "Nigeria", correct: true},
+        {text: "Cameroon", correct: false}
     ],
    },
 
