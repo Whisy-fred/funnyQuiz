@@ -18,8 +18,8 @@ const quizQuestions = [
     question: "What is the capital of france",
     answer: [
         {text: "London", correct: false},
-        {text: "Berlin", correct: true},
-        {text: "Paris", correct: false},
+        {text: "Berlin", correct: false},
+        {text: "Paris", correct: true},
         {text: "Madird", correct: false}
     ],
    },
@@ -27,7 +27,7 @@ const quizQuestions = [
    {
     question: "What planet is called the red planet",
     answer: [
-        {text: "Earth", correct: true},
+        {text: "Earth", correct: false},
         {text: "neptune", correct: false},
         {text: "jupiter", correct: false},
         {text: "mars", correct: true}
@@ -35,12 +35,12 @@ const quizQuestions = [
    },
 
    {
-    question: "Which of these is not a  language?",
+    question: "Which of these is not a programming language?",
     answer: [
-        {text: "English", correct: false},
-        {text: "France", correct: true},
-        {text: "Spanish", correct: fals3},
-        {text: "French", correct: false}
+        {text: "java", correct: false},
+        {text: "python", correct: false},
+        {text: "banana", correct: true},
+        {text: "javascript", correct: false}
     ],
    },
 
@@ -63,16 +63,6 @@ const quizQuestions = [
         {text: "Ag", correct: false}
     ],
    },
-{
-    question: "Which country is the giant of africa",
-    answer: [
-        {text: "south africa", correct: false},
-        {text: "Niger", correct: false},
-        {text: "Nigeria", correct: true},
-        {text: "Cameroon", correct: false}
-    ],
-   },
-
 
 
 ];
@@ -108,7 +98,7 @@ function  showQuestion() {
     currentQuestionSpan.textContent = currentQuestionIndex  + 1;
 
     const progressPercent = (currentQuestionIndex / quizQuestions.length) * 100;
-    progressBar.style.width = progressPercent + "%" ;
+     
     questionText.textContent = currentQuestion.question;
 
      answersContainer.innerHTML = "";
