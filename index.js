@@ -17,9 +17,9 @@ const quizQuestions = [
    {
     question: "What is the capital of france",
     answer: [
-        {text: "London", correct: false},
+        {text: "London", correct: true},
         {text: "Berlin", correct: false},
-        {text: "Paris", correct: true},
+        {text: "Paris", correct: false},
         {text: "Madird", correct: false}
     ],
    },
@@ -27,10 +27,10 @@ const quizQuestions = [
    {
     question: "What planet is called the red planet",
     answer: [
-        {text: "Earth", correct: false},
+        {text: "Earth", correct: true},
         {text: "neptune", correct: false},
         {text: "jupiter", correct: false},
-        {text: "mars", correct: true}
+        {text: "mars", correct: false}
     ],
    },
 
@@ -38,8 +38,8 @@ const quizQuestions = [
     question: "Which of these is not a programming language?",
     answer: [
         {text: "java", correct: false},
-        {text: "python", correct: false},
-        {text: "banana", correct: true},
+        {text: "python", correct: true},
+        {text: "banana", correct: false},
         {text: "javascript", correct: false}
     ],
    },
